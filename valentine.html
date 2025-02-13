@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff99cc, #ff3366); /* Gradient background */
+            color: #333;
+            background-size: 400% 400%; /* Creates a more dynamic gradient */
+            animation: gradientBG 15s ease infinite; /* Animation for gradient */
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            background-color: rgba(255, 99, 204, 0.9);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        header h1 {
+            font-family: 'Times New Roman', cursive;
+            font-size: 3rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(255, 51, 102, 0.8);
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #ff3399;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 40px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 90%;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #ff3366;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery img, .gallery video {
+            width: 300px;
+            height: 300px;
+            margin: 15px;
+            border: 5px solid #ff3366;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover, .gallery video:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 51, 102, 0.7);
+        }
+        footer {
+            background-color: rgba(255, 99, 204, 0.9);
+            text-align: center;
+            padding: 15px;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Love Story</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#love-letters">Love Letter</a>
+        <a href="#memories">Our Memories</a>
+    </nav>
+
+    <div id="home" class="content">
+        <h2>Welcome, my love!</h2>
+        <p>This website is a journey through our memories and love. I’m so happy to share this with you. 💖</p>
+        <br><hr>
+        <p><b>Araw-Araw</b></p>
+        <audio controls autoplay loop>
+            <source src="Ben&Ben - Araw-Araw.mp3" type="audio/mpeg">
+            
+        </audio>
+        
+    </div>
+
+    <div id="love-letters" class="content love-letters">
+        <h2>Love Letter</h2>
+        <p>Mahal kong <b>Lovely Joy Morta Alfaro</b></p>
+        <p>ang daming pagbabago simula noong makilala kita. Simula noong December 4 2024, 
+            nung simula ng una tayong nag usap at nagkakilala. kulit nga eh kasi imbis sa private conversation ay sa public note feature 
+            ng messenger tayo unang nag usap nag parinigan at nagpakiramdaman kung para ba sa isat isa ang mga mensaheng nagbabasa, pero bakit 
+            o pano nga ba tayo nagkakilala, Bakit nga ba tayo pinagtagpo. 
+            
+            <br><br>
+
+            sa bakit ay alam ko na pero sasarilihin ko muna iyon, sa pano naman, syempre inadd mo ako noon eh. sa mga panahong ito ay suko na 
+            ako, wala na akong pag asa sa sinasabi nilang pag ibig nungit papansin ka, unti unti mong binago ang pananaw at paniniwala kong iyon.
+            
+            <br><br>
+
+            may mga bagay akong gusto kong malaman mo, una mahal na mahal kita at pangalawa ay natatakot akong mawala ka, salamat sa pagiging 
+            tapat at tiwala, salamat sa pagiging sandalan at pahinga ko sa tuwing kinukupal nako ng reyalidad ng mundo, maraming salamat dahil sa 
+            kabila ng pag amin ko sa nakaraan ko ay tinanggap mo parin ako at minahal na walang halong pagdududa dala ng nakaraan ko, maraming 
+            salamat rin sa pamilya mong tinanggal ako ng buo, na walang pagdududa o pero pero at nakasuporta sila sa atin. at katulad nga ng nasa
+             kanta, ibibigay ko ang lahat pati narin ang yung pangarap, ibibigay ko ang lahat ng aking makakaya para lang mapaligayanat masuportahan 
+             ka, nandito ako lagi sa tabi mo hanggang sa tagumpay mo at maabot ang pangarap mo, at kung dumating man ang pagkakataon na kinakatakot 
+             ko na wag naman sana, wag ka mag alala dahil nakasubaybay parin ako sa tagumpay mo, pipiliin ka sa araw araw. Humihinga ako ng pasensya 
+             sa mga pagkakataong nagkakaron tayo ng away, hindi pagkakaintindihan at nasasaktan kita kahit hindi ko naman intensyon, humihingi ako ng
+             tawad sa mga pagkakataong iyon, tandaan mo na palagi akong babawi at itatama ang mga bagay bagay. hanggang dito nalang muna ang liham ng 
+             
+    </div>
+
+    <div id="memories" class="content gallery">
+        <h2>Our Memories</h2>
+        <!-- Video Example -->
+        <video width="100" height="100" controls>
+            <source src="suklay.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Images -->
+        <img src="1.jpg" alt="Memory 1">
+        <img src="2.jpg" alt="Memory 2">
+        <img src="3.jpg" alt="Memory 3">
+        <img src="4.jpg" alt="Memory 4">
+        <img src="5.jpg" alt="Memory 5">
+        <img src="6.jpg" alt="Memory 6">
+        <img src="7.jpg" alt="Memory 7">
+        <img src="8.jpg" alt="Memory 8">
+        <img src="9.jpg" alt="Memory 9">
+        <img src="10.jpg" alt="Memory 10">
+    </div>
+
+    <footer>
+        <p>Created with love by [Maasim but Masarap mong boyfriend danierbert santiago nastor mwaaaaa] 💕</p>
+    </footer>
+
+</body>
+</html>
